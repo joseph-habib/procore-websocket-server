@@ -1,1 +1,12 @@
-spring.application.name=websocket-server
+#spring.application.name=websocket-server
+server:
+  port: 8080
+kafka:
+  websocket-event:
+    bootstrap-servers: 192.168.1.143:9092
+    dlq-suffix: .dlq
+    cluster-api-key: test
+    cluster-api-secret: test
+    topics:
+      websocket-topic: websocket_events
+      input-topic: input-topic

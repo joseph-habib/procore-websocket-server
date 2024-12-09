@@ -39,4 +39,4 @@ By integrating WebSocket functionality into the platform, features like collabor
 ### Clone the Repository
 ```bash
 git clone https://github.com/procore/procore-websocket-server.git
-cd procore-websocket-server
+cd procore-websocket-server# procore-websocket-server
